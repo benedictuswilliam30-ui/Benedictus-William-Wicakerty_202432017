@@ -1,0 +1,71 @@
+<!-- Benedictus William Wicakerty_202432017 -->
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab ITPLN - Pendaftaran</title>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Open Recruitment Asisten</h1>
+      <nav>
+        <a href="inventaris.html">Inventaris</a>
+        <a href="stok.html">Stok Barang</a>
+        <a href="pendaftaran.html" class="active">Pendaftaran</a>
+        <a href="akun.html">Portal Akun</a>
+      </nav>
+    </header>
+
+    <main>
+      <form class="reg-form" action="#" method="POST">
+        <fieldset>
+          <legend>Data Identitas Calon Asisten</legend>
+
+          <div class="form-group">
+            <label for="nama">Nama Lengkap:</label>
+            <input
+              type="text"
+              id="nama"
+              id="nama"
+              placeholder="Sesuai KTM"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="minat">Minat Laboratorium:</label>
+            <select id="minat" required>
+              <option value="" disabled selected>Pilih Laboratorium...</option>
+              <option value="ir">Information Retrieval</option>
+              <option value="se">Software Engineering</option>
+              <option value="ic">Intelligent Computing</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Bahasa Pemrograman:</label><br />
+            <div class="checkbox-group">
+              <input type="checkbox" name="lang" value="python" /> Python
+              <input type="checkbox" name="lang" value="java" /> Java
+              <input type="checkbox" name="lang" value="php" /> PHP
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="visi">Visi & Misi:</label>
+            <textarea
+              id="visi"
+              rows="5"
+              placeholder="Tuliskan motivasi anda..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit">Kirim Aplikasi</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>

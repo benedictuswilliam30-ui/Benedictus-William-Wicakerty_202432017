@@ -1,0 +1,82 @@
+/* Benedictus William Wicakerty_202432017 */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #66a3b6;
+  color: white;
+  padding: 25px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 15px 0;
+  font-size: 26px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  font-size: 14px;
+}
+nav a.active {
+  background-color: white;
+  color: #66a3b6;
+  font-weight: bold;
+}
+main {
+  padding: 40px 5%;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  font-size: 14px;
+  border: 1px solid #66a3b6;
+}
+
+.styled-table th {
+  background-color: #66a3b6;
+  color: white;
+  padding: 15px;
+  border: 1px solid #8dbbc9;
+  text-align: center;
+}
+
+.styled-table td {
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  color: #333;
+}
+.category-cell {
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 500;
+}
+
+.text-center {
+  text-align: center;
+}
+.styled-table tbody tr:nth-child(even) {
+  background-color: #fcfcfc;
+}
+.styled-table tbody tr:hover {
+  background-color: #f1f7f9;
+}

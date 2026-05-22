@@ -1,0 +1,50 @@
+/* Benedictus William Wicakerty_202432017 */
+body {
+  background: radial-gradient(circle at center, #2c3e50 0%, #1a1a1a 100%);
+  min-height: 100vh;
+  margin: 0;
+}
+.navbar {
+  background-color: #2b7fff !important;
+  padding: 10px 0;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  margin-left: 15px;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.nav-link.active {
+  color: #fff !important;
+}
+.login-card {
+  width: 28rem;
+  background-color: #6c757d;
+  border-radius: 20px;
+}
+.custom-input-group .input-group-text {
+  border-right: 2px solid #6c757d !important;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: #495057;
+}
+
+.custom-input-group .form-control {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.form-control {
+  padding: 12px 15px;
+  border: 1px solid #ced4da;
+}
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+  color: #000;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
